@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium freelance web developer specializing in modern responsive websites. Expert in HTML5, CSS3, Bootstrap, JavaScript, WordPress, and SEO optimization.">
+    <meta name="keywords" content="freelance web developer, portfolio, web design, frontend developer, bootstrap, wordpress, seo expert">
+    <meta name="author" content="Marcus Chen">
+    <title>Marcus Chen | Freelance Web Developer</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img class="logos" src="img/logos.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home" data-trans="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" data-trans="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills" data-trans="skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services" data-trans="services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio" data-trans="portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials" data-trans="testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-trans="contact">Contact</a></li>
+                </ul>
+                <div class="nav-controls">
+                    <div class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <div class="toggle-ball"></div>
+                    </div>
+                    <div class="language-selector">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="ur">UR</button>
+                        <button class="lang-btn" data-lang="hi">HI</button>
+                        <button class="lang-btn" data-lang="ar">AR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-content">
+                        <span class="hero-badge" data-trans="hero_badge">Freelance Web Developer</span>
+                        <h1 class="hero-title">Crafting Digital <span class="gradient-text" data-trans="hero_highlight">Experiences</span> That Convert</h1>
+                        <p class="hero-desc" data-trans="hero_desc">I'm Muhammad Junaid, a passionate web developer helping businesses build powerful, fast, and SEO-optimized websites. Available for freelance work worldwide.</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary btn-lg" data-trans="hire_btn">Hire Me</a>
+                            <a href="#portfolio" class="btn btn-outline-light btn-lg" data-trans="work_btn">View Work</a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <h4>100+</h4>
+                                <p data-trans="stat_projects">Projects Done</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>50+</h4>
+                                <p data-trans="stat_clients">Happy Clients</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>24/7</h4>
+                                <p data-trans="stat_support">Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image-wrapper">
+                        <img src="img/img.jpeg" class="hero-image">
+                        <div class="floating-badge">
+                            <i class="fas fa-code"></i> <span data-trans="available">Available for work</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge" data-trans="about_badge">Get to Know Me</span>
+                <h2 class="section-title" data-trans="about_title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+                    <div class="about-image-wrapper">
+                        <img src="img/imgs.jpeg">
+                        <div class="experience-badge">
+                            <span>5+</span>
+                            <p data-trans="exp_years">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+                    <div class="about-content">
+                        <h3 data-trans="about_heading">I'm Marcus Chen, a Freelance Web Developer Based in San Francisco</h3>
+                        <p data-trans="about_desc1">With over 5 years of experience in the web development industry, I've helped startups, agencies, and enterprises build stunning digital solutions. My expertise spans from frontend development to WordPress customization and SEO optimization.</p>
+                        <p data-trans="about_desc2">I'm passionate about creating websites that not only look beautiful but also deliver measurable results. My approach combines technical excellence with creative design thinking to produce exceptional outcomes for my clients on platforms like Fiverr and Upwork.</p>
+                        <div class="about-info-grid">
+                            <div class="info-item">
+                                <i class="fas fa-user"></i>
+                                <div><strong data-trans="name_label">Name:</strong> Muhammad Junaid</div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <div><strong data-trans="email_label">Email:</strong> junaidososoft@gmail.com</div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div><strong data-trans="location_label">Location:</strong> Multan, Punjab, Pakistan</div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-calendar"></i>
+                                <div><strong data-trans="availability_label">Availability:</strong> Full-time Freelance</div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary mt-3" data-trans="talk_btn">Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge" data-trans="skills_badge">Technical Expertise</span>
+                <h2 class="section-title" data-trans="skills_title">My Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span><i class="fab fa-html5 text-danger"></i> HTML5</span>
+                            <span>98%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="98%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span><i class="fab fa-css3-alt text-primary"></i> CSS3</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span><i class="fab fa-bootstrap text-purple"></i> Bootstrap 5</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="92%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span><i class="fab fa-js text-warning"></i> JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span><i class="fab fa-wordpress text-info"></i> WordPress</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span><i class="fas fa-chart-line text-success"></i> SEO</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge" data-trans="services_badge">What I Offer</span>
+                <h2 class="section-title" data-trans="services_title">Premium Services</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 data-trans="service1_title">Web Development</h3>
+                        <p data-trans="service1_desc">Custom responsive websites built with modern technologies, ensuring fast loading times and seamless user experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h3 data-trans="service2_title">WordPress Solutions</h3>
+                        <p data-trans="service2_desc">Custom WordPress themes, plugin development, and complete website management for business websites and blogs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 data-trans="service3_title">Responsive Design</h3>
+                        <p data-trans="service3_desc">Mobile-first designs that look perfect on all devices - from smartphones to large desktop screens.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 data-trans="service4_title">SEO Optimization</h3>
+                        <p data-trans="service4_desc">On-page SEO, speed optimization, and technical SEO to improve your website's search engine rankings.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3 data-trans="service5_title">E-commerce Development</h3>
+                        <p data-trans="service5_desc">Secure and scalable online stores with payment integration, inventory management, and analytics.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 data-trans="service6_title">Maintenance & Support</h3>
+                        <p data-trans="service6_desc">Regular updates, backups, security monitoring, and technical support for your peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge" data-trans="portfolio_badge">Recent Projects</span>
+                <h2 class="section-title" data-trans="portfolio_title">Portfolio</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=450&fit=crop" alt="Fintech Dashboard" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4 data-trans="port1_title">Fintech Dashboard</h4>
+                                <p data-trans="port1_cat">React, Bootstrap, Charts</p>
+                                <a href="https://businessloansmurfreesboro.com/" class="btn btn-sm btn-primary" data-trans="view_btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=450&fit=crop" alt="Eco Store" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4 data-trans="port2_title">Eco Commerce Store</h4>
+                                <p data-trans="port2_cat">WooCommerce, SEO</p>
+                                <a href="https://www.contractfordeedguys.com/" class="btn btn-sm btn-primary" data-trans="view_btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=450&fit=crop" alt="Travel Blog" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4 data-trans="port3_title">Travel Blog Platform</h4>
+                                <p data-trans="port3_cat">WordPress, Custom Theme</p>
+                                <a href="https://bywatermh.com/" class="btn btn-sm btn-primary" data-trans="view_btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=450&fit=crop" alt="Real Estate" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4 data-trans="port4_title">Real Estate Platform</h4>
+                                <p data-trans="port4_cat">React, Maps API</p>
+                                <a href="https://bpif-usa.com/" class="btn btn-sm btn-primary" data-trans="view_btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=450&fit=crop" alt="Restaurant Website" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4 data-trans="port5_title">Restaurant Website</h4>
+                                <p data-trans="port5_cat">HTML5, CSS3, JS</p>
+                                <a href="https://murdermysterymexico.com/" class="btn btn-sm btn-primary" data-trans="view_btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1552581234-26160f608093?w=600&h=450&fit=crop" alt="Agency Portfolio" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4 data-trans="port6_title">Creative Agency</h4>
+                                <p data-trans="port6_cat">Bootstrap 5, AOS</p>
+                                <a href="https://freshcart.codescandy.com/" class="btn btn-sm btn-primary" data-trans="view_btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge" data-trans="testimonials_badge">Client Feedback</span>
+                <h2 class="section-title" data-trans="testimonials_title">What Clients Say</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p data-trans="testimonial1">Marcus delivered an outstanding website for our startup. His attention to detail and technical expertise are exceptional. Will definitely hire again!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop" alt="Sarah Johnson" class="author-img">
+                            <div>
+                                <h5>Sarah Johnson</h5>
+                                <span data-trans="client1_title">Founder, TechStart</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p data-trans="testimonial2">Working with Marcus was a game-changer for our business. He optimized our site speed and SEO, resulting in a 50% traffic increase. Highly recommend!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop" alt="David Chen" class="author-img">
+                            <div>
+                                <h5>David Chen</h5>
+                                <span data-trans="client2_title">E-commerce Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p data-trans="testimonial3">Marcus is a true professional. He understood our vision perfectly and delivered a stunning WordPress site on time and within budget. 5 stars!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=80&h=80&fit=crop" alt="Emily Rodriguez" class="author-img">
+                            <div>
+                                <h5>Emily Rodriguez</h5>
+                                <span data-trans="client3_title">Marketing Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge" data-trans="contact_badge">Get In Touch</span>
+                <h2 class="section-title" data-trans="contact_title">Let's Work Together</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 data-trans="visit_label">Visit Me</h4>
+                                <p>Multan, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 data-trans="email_label2">Email Me</h4>
+                                <p>junaidososoft@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 data-trans="call_label">Call Me</h4>
+                                <p>+92 324 5610798</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left" data-aos-delay="200">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" data-trans-placeholder="name_placeholder" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" data-trans-placeholder="email_placeholder" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" data-trans-placeholder="subject_placeholder">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" id="message" rows="6" placeholder="Your Message" data-trans-placeholder="message_placeholder" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg" data-trans="send_btn">Send Message</button>
+                            </div>
+                            <div id="formMessage" class="col-12"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Muhammad<span class="brand-accent">.</span>Junaid</h3>
+                    <p data-trans="footer_desc">Freelance Web Developer crafting premium digital experiences for global clients.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/share/1RUCDEx73F/" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammad-junaid-bb3622417?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/junaidsabqi01?igsh=dW1jaWx3bXAxdzRj" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@codewithjunaid0?_r=1&_t=ZN-97HWRAJCEpq" class="social-link"><i class="fa-brands fa-tiktok"></i></i></a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Marcus Chen. <span data-trans="copyright">All rights reserved. Built for global success on Fiverr & Upwork.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
